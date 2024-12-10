@@ -1,0 +1,1 @@
+/home/jsc/ros2_ws/src/motor_gui_pkg/setup.py

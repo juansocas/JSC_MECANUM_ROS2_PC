@@ -1,0 +1,10 @@
+amcl:
+  ros__parameters:
+    use_sim_time: false
+    yaml_filename: "/path/to/amcl_params.yaml"
+# Agrega más configuraciones según tus necesidades
+
+bt_navigator:
+  ros__parameters:
+    use_sim_time: false
+    yaml_filename: "/path/to/bt_navigator_params.yaml"

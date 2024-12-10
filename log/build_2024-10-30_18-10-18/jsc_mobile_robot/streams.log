@@ -1,0 +1,101 @@
+[0.042s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/jsc_mobile_robot -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/jsc_mobile_robot
+[1.303s] -- The C compiler identification is GNU 11.4.0
+[1.303s] -- The CXX compiler identification is GNU 11.4.0
+[1.303s] -- Detecting C compiler ABI info
+[1.305s] -- Detecting C compiler ABI info - done
+[1.305s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.305s] -- Detecting C compile features
+[1.311s] -- Detecting C compile features - done
+[1.312s] -- Detecting CXX compiler ABI info
+[1.312s] -- Detecting CXX compiler ABI info - done
+[1.312s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.312s] -- Detecting CXX compile features
+[1.312s] -- Detecting CXX compile features - done
+[1.312s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.312s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.312s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.312s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.313s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.313s] -- Added test 'lint_cmake' to check CMake code style
+[1.313s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.313s] -- Added test 'xmllint' to check XML markup files
+[1.313s] -- Configuring done
+[1.317s] -- Generating done
+[1.319s] -- Build files have been written to: /home/jsc/ros2_ws/build/jsc_mobile_robot
+[1.324s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/jsc_mobile_robot -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/jsc_mobile_robot
+[1.325s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/jsc_mobile_robot -- -j12 -l12
+[1.389s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/jsc_mobile_robot -- -j12 -l12
+[1.429s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/jsc_mobile_robot
+[1.473s] -- Install configuration: ""
+[1.474s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/config
+[1.474s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/config/my_controllers.yaml
+[1.474s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/config/mapper_params_online_async.yaml
+[1.474s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/config/diff_drive_controller.yaml
+[1.474s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/config/ekf.yaml
+[1.475s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/launch
+[1.475s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/launch/jsc_mobile_bot_v4_launch_copy.py
+[1.475s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/launch/jsc_mobile_bot_v2_launch.py
+[1.475s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/launch/jsc_mobile_bot_v3_launch.py
+[1.475s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/launch/jsc_mobile_bot_v5_launch.py
+[1.475s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/launch/jsc_mobile_bot_v4_launch.py
+[1.475s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/launch/jsc_mobile_bot_v1_launch.py
+[1.475s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/maps
+[1.476s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/meshes
+[1.476s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/meshes/wrist.stl
+[1.476s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/meshes/elbow.stl
+[1.476s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/meshes/arm_base.stl
+[1.476s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/meshes/robot_base.stl
+[1.476s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/meshes/bicep.stl
+[1.476s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/meshes/wheel.stl
+[1.477s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models
+[1.477s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_v2.urdf
+[1.477s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_v2_copy.urdf
+[1.477s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description
+[1.477s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/model_v2.sdf
+[1.477s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/model.sdf
+[1.477s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/config
+[1.477s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/config/controllers.yaml
+[1.478s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/modelo_V.sdf
+[1.478s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/model.config
+[1.478s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/meshes
+[1.478s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/meshes/wrist.stl
+[1.478s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/meshes/elbow.stl
+[1.478s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/meshes/arm_base.stl
+[1.478s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/meshes/robot_base.stl
+[1.478s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/meshes/bicep.stl
+[1.479s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/meshes/wheel.stl
+[1.479s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_v4.urdf
+[1.479s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_v1.urdf
+[1.479s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_v3.urdf
+[1.479s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/Pasillo_Telematica
+[1.479s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/Pasillo_Telematica/model.sdf
+[1.479s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/Pasillo_Telematica/model.config
+[1.479s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/params
+[1.480s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/rviz
+[1.480s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/rviz/urdf_config.rviz
+[1.480s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/rviz/urdf_config_v2.rviz
+[1.480s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/src
+[1.480s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds
+[1.480s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds/jsc_mobile_bot_world
+[1.480s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds/jsc_mobile_bot_world/pasillo_telematica_v2.world
+[1.480s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds/jsc_mobile_bot_world/pasillo_telematica_v3.world
+[1.481s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds/jsc_mobile_bot_world/telematica_v5.world
+[1.481s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds/jsc_mobile_bot_world/pasillo_telematica.world
+[1.486s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds/jsc_mobile_bot_world/telematica_v4.world
+[1.486s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds/jsc_mobile_bot_world/telematica_v6.world
+[1.487s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/ament_index/resource_index/package_run_dependencies/jsc_mobile_robot
+[1.488s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/ament_index/resource_index/parent_prefix_path/jsc_mobile_robot
+[1.488s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/environment/ament_prefix_path.sh
+[1.488s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/environment/ament_prefix_path.dsv
+[1.488s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/environment/path.sh
+[1.488s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/environment/path.dsv
+[1.488s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/local_setup.bash
+[1.490s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/local_setup.sh
+[1.490s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/local_setup.zsh
+[1.490s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/local_setup.dsv
+[1.490s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/package.dsv
+[1.490s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/ament_index/resource_index/packages/jsc_mobile_robot
+[1.491s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/cmake/jsc_mobile_robotConfig.cmake
+[1.491s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/cmake/jsc_mobile_robotConfig-version.cmake
+[1.491s] -- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/package.xml
+[1.512s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/jsc_mobile_robot

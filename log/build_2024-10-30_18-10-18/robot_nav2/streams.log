@@ -1,0 +1,40 @@
+[4.176s] Invoking command in '/home/jsc/ros2_ws/src/robot_nav2': PYTHONPATH=/home/jsc/ros2_ws/build/robot_nav2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_nav2 build --build-base /home/jsc/ros2_ws/build/robot_nav2/build install --record /home/jsc/ros2_ws/build/robot_nav2/install.log --single-version-externally-managed install_data
+[5.143s] running egg_info
+[5.144s] creating ../../build/robot_nav2/robot_nav2.egg-info
+[5.149s] writing ../../build/robot_nav2/robot_nav2.egg-info/PKG-INFO
+[5.149s] writing dependency_links to ../../build/robot_nav2/robot_nav2.egg-info/dependency_links.txt
+[5.150s] writing entry points to ../../build/robot_nav2/robot_nav2.egg-info/entry_points.txt
+[5.150s] writing requirements to ../../build/robot_nav2/robot_nav2.egg-info/requires.txt
+[5.151s] writing top-level names to ../../build/robot_nav2/robot_nav2.egg-info/top_level.txt
+[5.154s] writing manifest file '../../build/robot_nav2/robot_nav2.egg-info/SOURCES.txt'
+[5.161s] reading manifest file '../../build/robot_nav2/robot_nav2.egg-info/SOURCES.txt'
+[5.161s] writing manifest file '../../build/robot_nav2/robot_nav2.egg-info/SOURCES.txt'
+[5.163s] running build
+[5.164s] running build_py
+[5.164s] creating /home/jsc/ros2_ws/build/robot_nav2/build
+[5.164s] creating /home/jsc/ros2_ws/build/robot_nav2/build/lib
+[5.164s] creating /home/jsc/ros2_ws/build/robot_nav2/build/lib/robot_nav2
+[5.164s] copying robot_nav2/__init__.py -> /home/jsc/ros2_ws/build/robot_nav2/build/lib/robot_nav2
+[5.165s] running install
+[5.166s] running install_lib
+[5.167s] creating /home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages/robot_nav2
+[5.171s] copying /home/jsc/ros2_ws/build/robot_nav2/build/lib/robot_nav2/__init__.py -> /home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages/robot_nav2
+[5.173s] byte-compiling /home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages/robot_nav2/__init__.py to __init__.cpython-310.pyc
+[5.175s] running install_data
+[5.175s] creating /home/jsc/ros2_ws/install/robot_nav2/share/ament_index
+[5.175s] creating /home/jsc/ros2_ws/install/robot_nav2/share/ament_index/resource_index
+[5.175s] creating /home/jsc/ros2_ws/install/robot_nav2/share/ament_index/resource_index/packages
+[5.175s] copying resource/robot_nav2 -> /home/jsc/ros2_ws/install/robot_nav2/share/ament_index/resource_index/packages
+[5.176s] copying package.xml -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2
+[5.176s] creating /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+[5.176s] copying launch/lidar_launch.py -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+[5.176s] copying launch/amcl_launch.py -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+[5.176s] copying launch/nav2_launch.py -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+[5.176s] creating /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/config
+[5.176s] copying config/amcl_config.yaml -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/config
+[5.187s] copying config/nav2_params.yaml -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/config
+[5.187s] running install_egg_info
+[5.187s] Copying ../../build/robot_nav2/robot_nav2.egg-info to /home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages/robot_nav2-0.0.0-py3.10.egg-info
+[5.194s] running install_scripts
+[5.272s] writing list of installed files to '/home/jsc/ros2_ws/build/robot_nav2/install.log'
+[5.389s] Invoked command in '/home/jsc/ros2_ws/src/robot_nav2' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/robot_nav2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_nav2 build --build-base /home/jsc/ros2_ws/build/robot_nav2/build install --record /home/jsc/ros2_ws/build/robot_nav2/install.log --single-version-externally-managed install_data

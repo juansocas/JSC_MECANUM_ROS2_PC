@@ -1,0 +1,64 @@
+[0.012s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mecanum_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/jsc_mecanum_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/jsc_mecanum_description
+[0.026s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.146s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.162s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.233s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.238s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.238s] -- Added test 'lint_cmake' to check CMake code style
+[0.239s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.242s] -- Added test 'xmllint' to check XML markup files
+[0.243s] -- Configuring done
+[0.246s] -- Generating done
+[0.247s] -- Build files have been written to: /home/jsc/ros2_ws/build/jsc_mecanum_description
+[0.251s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mecanum_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/jsc_mecanum_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/jsc_mecanum_description
+[0.251s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mecanum_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/jsc_mecanum_description -- -j12 -l12
+[0.285s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mecanum_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/jsc_mecanum_description -- -j12 -l12
+[0.315s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mecanum_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/jsc_mecanum_description
+[0.321s] -- Install configuration: ""
+[0.322s] -- Execute custom install script
+[0.322s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/config/diff_drive_controller.yaml
+[0.330s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/config/robot_controller_config.yaml
+[0.338s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/config/slam_toolbox_config.yaml
+[0.346s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v1_launch.py
+[0.354s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v2_launch.py
+[0.362s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v3_launch.py
+[0.370s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v4_launch.py
+[0.377s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v4_launch_pi.py
+[0.386s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v5_launch.py
+[0.393s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v6_launch.py
+[0.402s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v7_launch.py
+[0.410s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v7_launch_pi.py
+[0.418s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v8_launch.py
+[0.426s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v8_launch_pi.py
+[0.434s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/launch/jsc_mecanum_bot_v9_launch.py
+[0.442s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/meshes/fl_wheel_link.STL
+[0.450s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/meshes/fr_wheel_link.STL
+[0.458s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/meshes/rl_wheel_link.STL
+[0.466s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/meshes/rr_wheel_link.STL
+[0.474s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/meshes/fl_wheel_link.STL
+[0.482s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/meshes/fr_wheel_link.STL
+[0.490s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/meshes/rl_wheel_link.STL
+[0.497s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/meshes/rr_wheel_link.STL
+[0.505s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/model.config
+[0.514s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/models/jsc_mecanum_bot_description/model.sdf
+[0.522s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/rviz/model.rviz
+[0.529s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/src/constant_odometry_publisher.py
+[0.537s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/src/jsc_mecanum_description.urdf
+[0.546s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_description
+[0.553s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_description
+[0.561s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/environment/ament_prefix_path.sh
+[0.568s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/environment/ament_prefix_path.dsv
+[0.576s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/environment/path.sh
+[0.584s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/environment/path.dsv
+[0.592s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/local_setup.bash
+[0.599s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/local_setup.sh
+[0.607s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/local_setup.zsh
+[0.615s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/local_setup.dsv
+[0.623s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.dsv
+[0.631s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/ament_index/resource_index/packages/jsc_mecanum_description
+[0.639s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/cmake/jsc_mecanum_descriptionConfig.cmake
+[0.646s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/cmake/jsc_mecanum_descriptionConfig-version.cmake
+[0.654s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_description/share/jsc_mecanum_description/package.xml
+[0.662s] -- Up-to-date: /home/jsc/ros2_ws/install/jsc_mecanum_description/lib/jsc_mecanum_description
+[0.662s] -- Up-to-date: /home/jsc/ros2_ws/install/jsc_mecanum_description/lib/jsc_mecanum_description/constant_odometry_publisher.py
+[0.665s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mecanum_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/jsc_mecanum_description

@@ -1,0 +1,1 @@
+/home/jsc/ros2_ws/build/a_gazebo/ament_cmake_environment_hooks/local_setup.zsh

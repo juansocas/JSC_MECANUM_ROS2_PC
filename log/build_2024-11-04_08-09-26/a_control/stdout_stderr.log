@@ -1,0 +1,35 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jsc/ros2_ws/build/a_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control//scripts/robot_control.py
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control//scripts/robot_control_navigation.py
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control//launch/omni_control.launch.py
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control//launch/omni_control_navigation.launch.py
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/lib/a_control/robot_control.py
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/lib/a_control/robot_control_navigation.py
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/lib/a_control/omni_control.launch.py
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/lib/a_control/omni_control_navigation.launch.py
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/ament_index/resource_index/package_run_dependencies/a_control
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/ament_index/resource_index/parent_prefix_path/a_control
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control/environment/path.sh
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control/environment/path.dsv
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control/local_setup.bash
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control/local_setup.sh
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control/local_setup.zsh
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control/local_setup.dsv
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control/package.dsv
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/ament_index/resource_index/packages/a_control
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control/cmake/a_controlConfig.cmake
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control/cmake/a_controlConfig-version.cmake
+-- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control/package.xml

@@ -1,0 +1,3 @@
+[console_scripts]
+distancia = robot_sensor_distance.sensor_distance:main
+

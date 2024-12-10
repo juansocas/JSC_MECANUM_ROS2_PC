@@ -1,0 +1,281 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="jsc_bot">  
+  <static>false</static>
+
+  <!-- ****************** ROBOT BASE FOOTPRINT ***************************  -->
+  <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+  <link name="base_footprint"/>
+
+  <!-- ********************** ROBOT BASE *********************************  -->
+  <link name="base_link">
+
+    <collision name="base_collision">
+      <pose>0 0 0.1 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.70 0.39 0.20</size>
+        </box>
+      </geometry>
+    </collision>
+
+    <visual name="base_visual">
+      <pose>0 0 -0.05 1.5707963267949 0 3.141592654</pose>
+      <geometry>
+        <mesh>
+          <uri>model://basic_mobile_bot_description/meshes/robot_base.stl</uri>
+          <scale>1.0 1.0 1.0</scale>
+        </mesh>
+      </geometry>
+      <material>
+        <ambient>1.0 0.0 0.0 1.0</ambient>
+        <diffuse>1.0 0.0 0.0 1.0</diffuse>
+        <specular>0.0 0.0 0.0 1.0</specular>
+        <emissive>0.0 0.0 0.0 1.0</emissive>
+      </material>
+    </visual>
+  </link>
+
+
+  <!-- *********************** LIDAR SETUP *********************************  -->
+  <link name="lidar_link">
+    <sensor name="bmb_lidar" type="lidar">
+      <always_on>true</always_on>
+      <update_rate>10.0</update_rate>
+      <lidar>
+        <position_sensing>
+          <horizontal>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>1e-2</stddev>
+            </noise>
+          </horizontal>
+          <vertical>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>1</stddev>
+            </noise>
+          </vertical>
+        </position_sensing>
+      </lidar>
+      <plugin name="jsc_bot_lidar" filename="libgazebo_ros_lidar_sensor.so">
+        <ros>
+          <remapping>~/out:=lidar/fix</remapping>
+        </ros>
+      </plugin>
+    </sensor>
+  </link>
+
+  <!-- *********************** DRIVE WHEELS ******************************  -->
+  <link name="front_left_wheel_link">
+
+  <!-- Especifica la posición y orientacion del link, los 3 ultimos numeros son los ańgulos de rotacion en radianes-->
+    <pose>-0.1 0.1 -0.05 0.35 1.570796 1.570796</pose>
+    
+    <collision name="front_left_wheel_collision">
+      <geometry>
+        <cylinder>
+          <radius>0.04</radius>
+          <length>0.06</length>
+        </cylinder>
+      </geometry>
+    </collision>
+
+    <visual name="front_left_wheel_visual">
+      <geometry>
+        <cylinder>
+          <radius>0.04</radius>
+          <length>0.06</length>
+        </cylinder>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="front_right_wheel_link">
+    <pose>0.1 0.1 -0.05 0.35 1.570796 1.570796</pose>
+    
+    <collision name="front_right_wheel_collision">
+      <geometry>
+        <cylinder>
+          <radius>0.04</radius>
+          <length>0.06</length>
+        </cylinder>
+      </geometry>
+    </collision>
+
+    <visual name="front_right_wheel_visual">
+      <geometry>
+        <cylinder>
+          <radius>0.04</radius>
+          <length>0.06</length>
+        </cylinder>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="back_left_wheel_link">
+    <pose>-0.1 -0.1 -0.05 0.35 1.570796 1.570796</pose>
+    
+    <collision name="back_left_wheel_collision">
+      <geometry>
+        <cylinder>
+          <radius>0.04</radius>
+          <length>0.06</length>
+        </cylinder>
+      </geometry>
+    </collision>
+
+    <visual name="back_left_wheel_visual">
+      <geometry>
+        <cylinder>
+          <radius>0.04</radius>
+          <length>0.06</length>
+        </cylinder>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="back_right_wheel_link">
+    <pose>0.1 -0.1 -0.05 0.35 1.570796 1.570796</pose>
+    
+    <collision name="back_right_wheel_collision">
+      <geometry>
+        <cylinder>
+          <radius>0.04</radius>
+          <length>0.06</length>
+        </cylinder>
+      </geometry>
+    </collision>
+
+    <visual name="back_right_wheel_visual">
+      <geometry>
+        <cylinder>
+          <radius>0.04</radius>
+          <length>0.06</length>
+        </cylinder>
+      </geometry>
+    </visual>
+  </link>
+
+ 
+
+  <!-- ************************ JOINTS ***********************************  -->
+  <!-- Pose of the joint is the same as the child link frame -->
+  <!-- Axis is the axis of rotation relative to the child link frame -->
+  
+  <joint name="base_joint" type="fixed">
+    <parent>base_footprint</parent>
+    <child>base_link</child>
+    <pose>0 0 0 0 0 0</pose>
+  </joint>
+
+  <joint name="front_left_wheel_joint" type="revolute">
+    <parent>base_link</parent>
+    <child>front_left_wheel_link</child>
+    <pose>0 0 0 0 0 0</pose>
+    <axis>
+      <xyz>0 0 1</xyz>
+    </axis>
+  </joint>
+
+    <joint name="front_right_wheel_joint" type="revolute">
+    <parent>base_link</parent>
+    <child>front_right_wheel_link</child>
+    <pose>0 0 0 0 0 0</pose>
+    <axis>
+      <xyz>0 0 1</xyz>
+    </axis>
+  </joint>
+
+    <joint name="back_left_wheel_joint" type="revolute">
+    <parent>base_link</parent>
+    <child>back_left_wheel_link</child>
+    <pose>0 0 0 0 0 0</pose>
+    <axis>
+      <xyz>0 0 1</xyz>
+    </axis>
+  </joint>
+
+    <joint name="back_right_wheel_joint" type="revolute">
+    <parent>base_link</parent>
+    <child>back_right_wheel_link</child>
+    <pose>0 0 0 0 0 0</pose>
+    <axis>
+      <xyz>0 0 1</xyz>
+    </axis>
+  </joint>
+
+  <joint name="lidar_joint" type="fixed">
+    <parent>base_link</parent>
+    <child>lidar_link</child>
+    <pose>0 0 0 0 0 0</pose>
+  </joint>  
+
+ <!-- *********************** WHEEL ODOMETRY ***************************    -->
+  <plugin name="basic_mobile_bot_diff_drive" filename="libgazebo_ros_diff_drive.so">
+
+    <update_rate>30</update_rate>
+
+    <!-- wheels -->
+    <front_left_joint>front_left_wheel_joint</front_left_joint>
+    <front_right_joint>front_right_wheel_joint</front_right_joint>
+    
+    <back_left_joint>back_left_wheel_joint</back_left_joint>
+    <back_right_joint>back_right_wheel_joint</back_right_joint>
+
+
+    <!-- kinematics -->
+    <wheel_separation>0.52</wheel_separation>
+    <wheel_diameter>0.28</wheel_diameter>
+
+    <!-- limits -->
+    <max_wheel_torque>20</max_wheel_torque>
+    <max_wheel_acceleration>1.0</max_wheel_acceleration>
+
+    <!-- Receive velocity commands on this ROS topic -->
+    <command_topic>cmd_vel</command_topic>
+
+    <!-- output -->
+    <!-- When false, publish no wheel odometry data to a ROS topic -->
+    <publish_odom>true</publish_odom>
+
+    <!-- When true, publish coordinate transform from odom to base_footprint -->
+    <!-- I usually use the robot_localization package to publish this transform -->   
+    <publish_odom_tf>false</publish_odom_tf>
+    
+    <!-- When true, publish coordinate transform from base_link to the wheels -->
+    <!-- The robot_state_publisher package is often used to publish this transform -->   
+    <publish_wheel_tf>false</publish_wheel_tf>
+
+    <odometry_topic>odom</odometry_topic>
+    <odometry_frame>odom</odometry_frame>
+    <robot_base_frame>base_footprint</robot_base_frame>
+
+    <!-- Odometry source, 0 for ENCODER, 1 for WORLD, defaults to WORLD -->
+    <odometry_source>0</odometry_source>
+
+    <!-- Change the ROS topic we will publish the odometry data to -->
+    <ros>
+      <remapping>odom:=wheel/odometry</remapping>
+    </ros>
+
+  </plugin>
+
+ <!-- *********************** JOINT STATE PUBLISHER *********************   -->
+  
+  <plugin name="jsc_bot_joint_state" filename="libgazebo_ros_joint_state_publisher.so">
+    <ros>
+      <remapping>~/out:=joint_states</remapping>
+    </ros>
+    <update_rate>30</update_rate>
+
+    <joint_name>front_left_wheel_joint</joint_name>
+    <joint_name>front_right_wheel_joint</joint_name>
+    
+    <joint_name>back_left_wheel_joint</joint_name>
+    <joint_name>back_right_wheel_joint</joint_name>
+
+  </plugin>   
+  
+  </model>
+</sdf>

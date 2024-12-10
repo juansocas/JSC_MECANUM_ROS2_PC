@@ -1,0 +1,23 @@
+planner_server:
+  ros__parameters:
+    expected_planner_frequency: 10.0
+    planner_plugins: ['GridBased']
+    GridBased:
+      plugin: 'nav2_navfn_planner/NavfnPlanner'
+
+controller_server:
+  ros__parameters:
+    expected_controller_frequency: 20.0
+    controller_plugins: ['FollowPath']
+    FollowPath:
+      plugin: 'dwb_core::DWBLocalPlanner'
+
+bt_navigator:
+  ros__parameters:
+    bt_xml_filename: 'navigate_w_replanning_and_recovery.xml'
+
+recoveries_server:
+  ros__parameters:
+    costmap_recovery_plugin: 'nav2_recoveries/BackUp'
+    spin_recovery_plugin: 'nav2_recoveries/Spin'
+    wait_recovery_plugin: 'nav2_recoveries/Wait'

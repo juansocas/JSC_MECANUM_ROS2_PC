@@ -1,0 +1,18 @@
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/src/description/jsc_bot_description.urdf
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/launch/display.launch.py
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/rviz/ urdf_config.rviz
+/home/jsc/ros2_ws/install/jsc_bot_description/share/ament_index/resource_index/package_run_dependencies/jsc_bot_description
+/home/jsc/ros2_ws/install/jsc_bot_description/share/ament_index/resource_index/parent_prefix_path/jsc_bot_description
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/environment/ament_prefix_path.sh
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/environment/ament_prefix_path.dsv
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/environment/path.sh
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/environment/path.dsv
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/local_setup.bash
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/local_setup.sh
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/local_setup.zsh
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/local_setup.dsv
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/package.dsv
+/home/jsc/ros2_ws/install/jsc_bot_description/share/ament_index/resource_index/packages/jsc_bot_description
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/cmake/jsc_bot_descriptionConfig.cmake
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/cmake/jsc_bot_descriptionConfig-version.cmake
+/home/jsc/ros2_ws/install/jsc_bot_description/share/jsc_bot_description/package.xml

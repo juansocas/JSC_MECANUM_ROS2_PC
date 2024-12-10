@@ -1,0 +1,39 @@
+[1.387s] Invoking command in '/home/jsc/ros2_ws/build/robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/robot_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/robot_slam
+[1.400s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.656s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.672s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.806s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.806s] -- Added test 'lint_cmake' to check CMake code style
+[1.807s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.809s] -- Added test 'xmllint' to check XML markup files
+[1.811s] -- Configuring done
+[1.815s] -- Generating done
+[1.820s] -- Build files have been written to: /home/jsc/ros2_ws/build/robot_slam
+[1.825s] Invoked command in '/home/jsc/ros2_ws/build/robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/robot_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/robot_slam
+[1.826s] Invoking command in '/home/jsc/ros2_ws/build/robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/robot_slam -- -j12 -l12
+[1.883s] Invoked command in '/home/jsc/ros2_ws/build/robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/robot_slam -- -j12 -l12
+[1.926s] Invoking command in '/home/jsc/ros2_ws/build/robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/robot_slam
+[1.936s] -- Install configuration: ""
+[1.936s] -- Up-to-date: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/launch
+[1.936s] -- Up-to-date: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/launch/nav2_bringup_launch.py
+[1.936s] -- Up-to-date: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/launch/slam_toolbox_launch.py
+[1.936s] -- Up-to-date: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/config
+[1.936s] -- Up-to-date: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/config/nav2_params.yaml
+[1.937s] -- Up-to-date: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/config/slam_toolbox_config.yaml
+[1.937s] -- Execute custom install script
+[1.937s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/robot_slam/share/ament_index/resource_index/package_run_dependencies/robot_slam
+[1.937s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/robot_slam/share/ament_index/resource_index/parent_prefix_path/robot_slam
+[1.938s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/environment/ament_prefix_path.sh
+[1.938s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/environment/ament_prefix_path.dsv
+[1.938s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/environment/path.sh
+[1.939s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/environment/path.dsv
+[1.939s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/local_setup.bash
+[1.939s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/local_setup.sh
+[1.939s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/local_setup.zsh
+[1.940s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/local_setup.dsv
+[1.940s] -- Symlinking: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/package.dsv
+[1.954s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/robot_slam/share/ament_index/resource_index/packages/robot_slam
+[1.954s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/cmake/robot_slamConfig.cmake
+[1.954s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/cmake/robot_slamConfig-version.cmake
+[1.954s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/robot_slam/share/robot_slam/package.xml
+[1.958s] Invoked command in '/home/jsc/ros2_ws/build/robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/robot_slam

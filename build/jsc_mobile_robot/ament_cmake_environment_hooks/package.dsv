@@ -1,0 +1,4 @@
+source;share/jsc_mobile_robot/local_setup.bash
+source;share/jsc_mobile_robot/local_setup.dsv
+source;share/jsc_mobile_robot/local_setup.sh
+source;share/jsc_mobile_robot/local_setup.zsh

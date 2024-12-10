@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control//scripts
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control//scripts/robot_control.py
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control//scripts/robot_control_navigation.py
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control//launch
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control//launch/omni_control_navigation.launch.py
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control//launch/omni_control.launch.py
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/lib/a_control/robot_control.py
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/lib/a_control/robot_control_navigation.py
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/lib/a_control/omni_control.launch.py
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/lib/a_control/omni_control_navigation.launch.py
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/ament_index/resource_index/package_run_dependencies/a_control
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/ament_index/resource_index/parent_prefix_path/a_control
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control/environment/path.sh
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control/environment/path.dsv
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control/local_setup.bash
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control/local_setup.sh
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control/local_setup.zsh
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control/local_setup.dsv
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control/package.dsv
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/ament_index/resource_index/packages/a_control
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control/cmake/a_controlConfig.cmake
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control/cmake/a_controlConfig-version.cmake
+-- Up-to-date: /home/jsc/ros2_ws/install/a_control/share/a_control/package.xml

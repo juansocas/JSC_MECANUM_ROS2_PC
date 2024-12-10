@@ -1,0 +1,29 @@
+[0.065s] Invoking command in '/home/jsc/ros2_ws/build/a_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/a_control -- -j12 -l12
+[0.411s] Invoked command in '/home/jsc/ros2_ws/build/a_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/a_control -- -j12 -l12
+[0.454s] Invoking command in '/home/jsc/ros2_ws/build/a_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/a_control
+[0.499s] -- Install configuration: ""
+[0.500s] -- Execute custom install script
+[0.500s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control//scripts/robot_control.py
+[0.500s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control//scripts/robot_control_navigation.py
+[0.500s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control//launch/omni_control.launch.py
+[0.500s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control//launch/omni_control_navigation.launch.py
+[0.500s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/lib/a_control/robot_control.py
+[0.501s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/lib/a_control/robot_control_navigation.py
+[0.501s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/lib/a_control/omni_control.launch.py
+[0.501s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/lib/a_control/omni_control_navigation.launch.py
+[0.501s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/ament_index/resource_index/package_run_dependencies/a_control
+[0.501s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/ament_index/resource_index/parent_prefix_path/a_control
+[0.501s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control/environment/ament_prefix_path.sh
+[0.501s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control/environment/ament_prefix_path.dsv
+[0.502s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control/environment/path.sh
+[0.502s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control/environment/path.dsv
+[0.502s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control/local_setup.bash
+[0.502s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control/local_setup.sh
+[0.502s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control/local_setup.zsh
+[0.502s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control/local_setup.dsv
+[0.503s] -- Symlinking: /home/jsc/ros2_ws/install/a_control/share/a_control/package.dsv
+[0.507s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/ament_index/resource_index/packages/a_control
+[0.507s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control/cmake/a_controlConfig.cmake
+[0.507s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control/cmake/a_controlConfig-version.cmake
+[0.507s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_control/share/a_control/package.xml
+[0.526s] Invoked command in '/home/jsc/ros2_ws/build/a_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/a_control

@@ -1,0 +1,33 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo//launch/bringup_launch.py
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo//launch/gazebo_sim_launch_rf2o.py
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo//launch/jsc_cart_slam_launch.py
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo//launch/robot_state_publisher_launch.py
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo//launch/rviz_launch.py
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo//rviz/nav2_default_view.rviz
+-- Symlinking: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo//maps/mapa_2.pgm
+-- Symlinking: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo//maps/mapa_2.yaml
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo//params/nav2_params.yaml
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/lib/a_gazebo/bringup_launch.py
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/lib/a_gazebo/robot_state_publisher_launch.py
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/lib/a_gazebo/rviz_launch.py
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/lib/a_gazebo/jsc_cart_slam_launch.py
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/lib/a_gazebo/gazebo_sim_launch_rf2o.py
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/ament_index/resource_index/package_run_dependencies/a_gazebo
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/ament_index/resource_index/parent_prefix_path/a_gazebo
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo/environment/path.sh
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo/environment/path.dsv
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo/local_setup.bash
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo/local_setup.sh
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo/local_setup.zsh
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo/local_setup.dsv
+-- Symlinking: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo/package.dsv
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/ament_index/resource_index/packages/a_gazebo
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo/cmake/a_gazeboConfig.cmake
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo/cmake/a_gazeboConfig-version.cmake
+-- Up-to-date symlink: /home/jsc/ros2_ws/install/a_gazebo/share/a_gazebo/package.xml

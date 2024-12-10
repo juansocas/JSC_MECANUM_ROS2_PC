@@ -1,0 +1,1 @@
+/home/jsc/ros2_ws/src/a_gazebo/launch/rviz_launch.py

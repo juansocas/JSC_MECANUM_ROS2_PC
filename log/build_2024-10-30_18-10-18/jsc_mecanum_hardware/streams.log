@@ -1,0 +1,105 @@
+[0.047s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mecanum_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/jsc_mecanum_hardware -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/jsc_mecanum_hardware
+[0.619s] -- The C compiler identification is GNU 11.4.0
+[0.620s] -- The CXX compiler identification is GNU 11.4.0
+[0.620s] -- Detecting C compiler ABI info
+[0.620s] -- Detecting C compiler ABI info - done
+[0.621s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.621s] -- Detecting C compile features
+[0.625s] -- Detecting C compile features - done
+[0.625s] -- Detecting CXX compiler ABI info
+[0.625s] -- Detecting CXX compiler ABI info - done
+[0.638s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.638s] -- Detecting CXX compile features
+[0.638s] -- Detecting CXX compile features - done
+[0.642s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.934s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.113s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.200s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.214s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.241s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.269s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.700s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.706s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.754s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.822s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.828s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.849s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.854s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.864s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.875s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.887s] -- Looking for pthread.h
+[1.962s] -- Looking for pthread.h - found
+[1.962s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.049s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.051s] -- Found Threads: TRUE  
+[2.222s] -- Configuring done
+[2.280s] -- Generating done
+[2.283s] -- Build files have been written to: /home/jsc/ros2_ws/build/jsc_mecanum_hardware
+[2.753s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mecanum_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/jsc_mecanum_hardware -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/jsc_mecanum_hardware
+[2.755s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mecanum_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/jsc_mecanum_hardware -- -j12 -l12
+[3.345s] [ 66%] [32mBuilding CXX object CMakeFiles/jsc_mecanum_hardware.dir/src/jsc_mecanum_serial_port.cpp.o[0m
+[3.345s] [ 33%] [32mBuilding CXX object CMakeFiles/jsc_mecanum_hardware.dir/src/jsc_mecanum_hardware.cpp.o[0m
+[9.963s] [01m[K/home/jsc/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[9.963s] [01m[K/home/jsc/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:123:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.963s]   123 | canumbotHardware::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[9.963s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[9.963s] 
+[9.966s] [01m[K/home/jsc/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[9.967s] [01m[K/home/jsc/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:150:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.967s]   150 | numbotHardware::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[9.967s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[9.967s] 
+[9.994s] [01m[K/home/jsc/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[9.994s] [01m[K/home/jsc/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:173:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.994s]   173 | ce::return_type MecanumbotHardware::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[9.995s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[9.995s] 
+[9.995s] [01m[K/home/jsc/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:173:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.995s]   173 | ardware::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[9.995s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[9.995s] 
+[9.997s] [01m[K/home/jsc/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type jsc::jsc_mecanum_bot::hardware::MecanumbotHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[10.000s] [01m[K/home/jsc/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:213:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.000s]   213 | e::return_type MecanumbotHardware::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[10.000s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.000s] 
+[10.000s] [01m[K/home/jsc/ros2_ws/src/jsc_mecanum_hardware/src/jsc_mecanum_hardware.cpp:213:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.000s]   213 | rdware::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[10.000s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[10.000s] 
+[12.229s] [100%] [32m[1mLinking CXX shared library libjsc_mecanum_hardware.so[0m
+[12.601s] [100%] Built target jsc_mecanum_hardware
+[12.619s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mecanum_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/jsc_mecanum_hardware -- -j12 -l12
+[12.667s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mecanum_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/jsc_mecanum_hardware
+[12.678s] -- Install configuration: ""
+[12.679s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/jsc_mecanum_hardware.xml
+[12.680s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/lib/libjsc_mecanum_hardware.so
+[12.681s] -- Set runtime path of "/home/jsc/ros2_ws/install/jsc_mecanum_hardware/lib/libjsc_mecanum_hardware.so" to ""
+[12.682s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/include/include
+[12.682s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware
+[12.682s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_serial_port.hpp
+[12.682s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_hardware.hpp
+[12.682s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_hardware_compiler.h
+[12.683s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/library_path.sh
+[12.683s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/library_path.dsv
+[12.683s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_hardware
+[12.684s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_hardware
+[12.684s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/ament_prefix_path.sh
+[12.684s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/ament_prefix_path.dsv
+[12.684s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/path.sh
+[12.684s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/path.dsv
+[12.685s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.bash
+[12.685s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.sh
+[12.685s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.zsh
+[12.685s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.dsv
+[12.685s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.dsv
+[12.686s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/packages/jsc_mecanum_hardware
+[12.686s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/jsc_mecanum_hardware
+[12.686s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.687s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[12.687s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.687s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/jsc_mecanum_hardwareConfig.cmake
+[12.687s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/jsc_mecanum_hardwareConfig-version.cmake
+[12.687s] -- Installing: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.xml
+[12.691s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mecanum_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/jsc_mecanum_hardware

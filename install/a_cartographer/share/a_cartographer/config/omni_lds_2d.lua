@@ -1,0 +1,1 @@
+/home/jsc/ros2_ws/src/a_cartographer/config/omni_lds_2d.lua

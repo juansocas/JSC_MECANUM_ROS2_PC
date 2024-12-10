@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing robot_nav2.egg-info/PKG-INFO
+writing dependency_links to robot_nav2.egg-info/dependency_links.txt
+writing entry points to robot_nav2.egg-info/entry_points.txt
+writing requirements to robot_nav2.egg-info/requires.txt
+writing top-level names to robot_nav2.egg-info/top_level.txt
+reading manifest file 'robot_nav2.egg-info/SOURCES.txt'
+writing manifest file 'robot_nav2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages/robot-nav2.egg-link (link to .)
+
+Installed /home/jsc/ros2_ws/build/robot_nav2
+running symlink_data
+symbolically linking /home/jsc/ros2_ws/build/robot_nav2/resource/robot_nav2 -> /home/jsc/ros2_ws/install/robot_nav2/share/ament_index/resource_index/packages
+symbolically linking /home/jsc/ros2_ws/build/robot_nav2/package.xml -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2
+symbolically linking /home/jsc/ros2_ws/build/robot_nav2/launch/lidar_launch.py -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+symbolically linking /home/jsc/ros2_ws/build/robot_nav2/launch/amcl_launch.py -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+symbolically linking /home/jsc/ros2_ws/build/robot_nav2/launch/nav2_launch.py -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+symbolically linking /home/jsc/ros2_ws/build/robot_nav2/config/amcl_config.yaml -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/config
+symbolically linking /home/jsc/ros2_ws/build/robot_nav2/config/nav2_params.yaml -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/config

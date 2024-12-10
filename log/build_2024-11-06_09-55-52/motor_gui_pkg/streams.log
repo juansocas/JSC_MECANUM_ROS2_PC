@@ -1,0 +1,31 @@
+[2.583s] Invoking command in '/home/jsc/ros2_ws/build/motor_gui_pkg': PYTHONPATH=/home/jsc/ros2_ws/build/motor_gui_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jsc/ros2_ws/build/motor_gui_pkg/build
+[3.171s] running develop
+[3.534s] Removing /home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor-gui-pkg.egg-link (link to .)
+[3.595s] Invoked command in '/home/jsc/ros2_ws/build/motor_gui_pkg' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/motor_gui_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jsc/ros2_ws/build/motor_gui_pkg/build
+[3.597s] Invoking command in '/home/jsc/ros2_ws/src/motor_gui_pkg': PYTHONPATH=/home/jsc/ros2_ws/build/motor_gui_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_gui_pkg build --build-base /home/jsc/ros2_ws/build/motor_gui_pkg/build install --record /home/jsc/ros2_ws/build/motor_gui_pkg/install.log --single-version-externally-managed install_data --force
+[3.932s] running egg_info
+[3.933s] writing ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/PKG-INFO
+[3.933s] writing dependency_links to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/dependency_links.txt
+[3.933s] writing entry points to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/entry_points.txt
+[3.934s] writing requirements to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/requires.txt
+[3.934s] writing top-level names to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/top_level.txt
+[3.936s] reading manifest file '../../build/motor_gui_pkg/motor_gui_pkg.egg-info/SOURCES.txt'
+[3.938s] writing manifest file '../../build/motor_gui_pkg/motor_gui_pkg.egg-info/SOURCES.txt'
+[3.938s] running build
+[3.938s] running build_py
+[3.938s] running install
+[3.939s] running install_lib
+[3.940s] creating /home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg
+[3.943s] copying /home/jsc/ros2_ws/build/motor_gui_pkg/build/lib/motor_gui_pkg/motor_gui.py -> /home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg
+[3.944s] copying /home/jsc/ros2_ws/build/motor_gui_pkg/build/lib/motor_gui_pkg/__init__.py -> /home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg
+[3.944s] byte-compiling /home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg/motor_gui.py to motor_gui.cpython-310.pyc
+[3.944s] byte-compiling /home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg/__init__.py to __init__.cpython-310.pyc
+[3.944s] running install_data
+[3.944s] copying resource/motor_gui_pkg -> /home/jsc/ros2_ws/install/motor_gui_pkg/share/ament_index/resource_index/packages
+[3.944s] copying package.xml -> /home/jsc/ros2_ws/install/motor_gui_pkg/share/motor_gui_pkg
+[3.944s] running install_egg_info
+[3.946s] Copying ../../build/motor_gui_pkg/motor_gui_pkg.egg-info to /home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg-0.0.0-py3.10.egg-info
+[3.947s] running install_scripts
+[3.976s] Installing motor_gui script to /home/jsc/ros2_ws/install/motor_gui_pkg/lib/motor_gui_pkg
+[3.976s] writing list of installed files to '/home/jsc/ros2_ws/build/motor_gui_pkg/install.log'
+[4.022s] Invoked command in '/home/jsc/ros2_ws/src/motor_gui_pkg' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/motor_gui_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_gui_pkg build --build-base /home/jsc/ros2_ws/build/motor_gui_pkg/build install --record /home/jsc/ros2_ws/build/motor_gui_pkg/install.log --single-version-externally-managed install_data --force

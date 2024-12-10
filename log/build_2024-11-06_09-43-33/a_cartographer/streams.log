@@ -1,0 +1,26 @@
+[0.071s] Invoking command in '/home/jsc/ros2_ws/build/a_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/a_cartographer -- -j12 -l12
+[0.428s] Invoked command in '/home/jsc/ros2_ws/build/a_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/a_cartographer -- -j12 -l12
+[0.472s] Invoking command in '/home/jsc/ros2_ws/build/a_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/a_cartographer
+[0.485s] -- Install configuration: ""
+[0.485s] -- Execute custom install script
+[0.485s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/config/omni_lds_2d.lua
+[0.485s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/launch/cartographer_launch.py
+[0.485s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/launch/occupancy_grid_launch.py
+[0.485s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/launch/robot_state_publisher_launch.py
+[0.487s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/rviz/tb3_cartographer.rviz
+[0.487s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/ament_index/resource_index/package_run_dependencies/a_cartographer
+[0.488s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/ament_index/resource_index/parent_prefix_path/a_cartographer
+[0.490s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/environment/ament_prefix_path.sh
+[0.490s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/environment/ament_prefix_path.dsv
+[0.490s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/environment/path.sh
+[0.490s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/environment/path.dsv
+[0.490s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/local_setup.bash
+[0.490s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/local_setup.sh
+[0.491s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/local_setup.zsh
+[0.491s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/local_setup.dsv
+[0.491s] -- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/package.dsv
+[0.503s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/ament_index/resource_index/packages/a_cartographer
+[0.503s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/cmake/a_cartographerConfig.cmake
+[0.503s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/cmake/a_cartographerConfig-version.cmake
+[0.503s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/package.xml
+[0.540s] Invoked command in '/home/jsc/ros2_ws/build/a_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/a_cartographer

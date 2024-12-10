@@ -1,0 +1,24 @@
+[0.064s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mecanum_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/jsc_mecanum_teleop -- -j12 -l12
+[0.389s] [100%] Built target jsc_mecanum_teleop
+[0.403s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mecanum_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/jsc_mecanum_teleop -- -j12 -l12
+[0.490s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mecanum_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/jsc_mecanum_teleop
+[0.518s] -- Install configuration: ""
+[0.520s] -- Execute custom install script
+[0.520s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/config/teleop_config.yaml
+[0.521s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/lib/jsc_mecanum_teleop/jsc_mecanum_teleop
+[0.521s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_teleop
+[0.521s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_teleop
+[0.521s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/environment/ament_prefix_path.sh
+[0.521s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/environment/ament_prefix_path.dsv
+[0.521s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/environment/path.sh
+[0.521s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/environment/path.dsv
+[0.521s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/local_setup.bash
+[0.521s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/local_setup.sh
+[0.521s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/local_setup.zsh
+[0.522s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/local_setup.dsv
+[0.522s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.dsv
+[0.523s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/ament_index/resource_index/packages/jsc_mecanum_teleop
+[0.523s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/cmake/jsc_mecanum_teleopConfig.cmake
+[0.523s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/cmake/jsc_mecanum_teleopConfig-version.cmake
+[0.523s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_teleop/share/jsc_mecanum_teleop/package.xml
+[0.579s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mecanum_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/jsc_mecanum_teleop

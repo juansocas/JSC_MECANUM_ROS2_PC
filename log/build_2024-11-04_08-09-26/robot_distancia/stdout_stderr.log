@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing robot_distancia.egg-info/PKG-INFO
+writing dependency_links to robot_distancia.egg-info/dependency_links.txt
+writing entry points to robot_distancia.egg-info/entry_points.txt
+writing requirements to robot_distancia.egg-info/requires.txt
+writing top-level names to robot_distancia.egg-info/top_level.txt
+reading manifest file 'robot_distancia.egg-info/SOURCES.txt'
+writing manifest file 'robot_distancia.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jsc/ros2_ws/install/robot_distancia/lib/python3.10/site-packages/robot-distancia.egg-link (link to .)
+Installing distancia script to /home/jsc/ros2_ws/install/robot_distancia/lib/robot_distancia
+
+Installed /home/jsc/ros2_ws/build/robot_distancia
+running symlink_data
+symbolically linking /home/jsc/ros2_ws/build/robot_distancia/resource/robot_distancia -> /home/jsc/ros2_ws/install/robot_distancia/share/ament_index/resource_index/packages
+symbolically linking /home/jsc/ros2_ws/build/robot_distancia/package.xml -> /home/jsc/ros2_ws/install/robot_distancia/share/robot_distancia

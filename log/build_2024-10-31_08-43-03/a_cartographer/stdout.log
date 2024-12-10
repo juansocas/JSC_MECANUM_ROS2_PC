@@ -1,0 +1,28 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jsc/ros2_ws/build/a_cartographer
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/config/omni_lds_2d.lua
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/launch/cartographer_launch.py
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/launch/occupancy_grid_launch.py
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/rviz/tb3_cartographer.rviz
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/ament_index/resource_index/package_run_dependencies/a_cartographer
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/ament_index/resource_index/parent_prefix_path/a_cartographer
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/environment/ament_prefix_path.sh
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/environment/path.sh
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/environment/path.dsv
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/local_setup.bash
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/local_setup.sh
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/local_setup.zsh
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/local_setup.dsv
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/package.dsv
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/ament_index/resource_index/packages/a_cartographer
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/cmake/a_cartographerConfig.cmake
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/cmake/a_cartographerConfig-version.cmake
+-- Symlinking: /home/jsc/ros2_ws/install/a_cartographer/share/a_cartographer/package.xml

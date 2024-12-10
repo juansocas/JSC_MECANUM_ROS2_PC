@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<robot name="jsc_bot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- DEFINICION DE LOS PARAMETROS DEL ROBOT-->
+  <xacro:property name="base_width" value="0.17"/> <!-- 17 cm de separación entre las ruedas del mismo eje -->
+  <xacro:property name="base_length" value="0.19"/> <!-- 19 cm de separación entre las ruedas delanteras y traseras -->
+  <xacro:property name="base_height" value="0.18"/>
+
+  <xacro:property name="wheel_radius" value="0.04"/>
+  <xacro:property name="wheel_width" value="0.035"/>
+  <xacro:property name="wheel_ygap" value="0.015"/>
+  <xacro:property name="wheel_poff" value="0.05"/>
+  <xacro:property name="wheel_zoff" value="0.075"/> <!-- Ajuste para que base_link esté a 3.5 cm del suelo -->
+  <xacro:property name="wheel_xoff" value="0.095"/> <!-- 9.5 cm, ajustado a la mitad de base_length -->
+
+  <xacro:property name="lidar_height" value="0.1"/> <!-- 22 cm para el LiDAR -->
+
+  <!-- BASE_LINK DEL ROBOT -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="${base_length} ${base_width} ${base_height}"/>
+      </geometry>
+      <material name="Cyan">
+        <color rgba="0 1.0 1.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Robot Footprint -->
+  <link name="base_footprint"/>
+
+  <joint name="base_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="base_footprint"/>
+    <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/> <!-- Base en el centro -->
+  </joint>
+
+  <!-- RUEDAS -->
+  <xacro:macro name="wheel" params="prefix x_reflect y_reflect">
+    <link name="${prefix}_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 ${pi/2} 0"/>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+        </geometry>
+        <material name="Gray">
+          <color rgba="0.5 0.5 0.5 1.0"/>
+        </material>
+      </visual>
+    </link>
+
+    <joint name="${prefix}_joint" type="continuous">
+      <parent link="base_link"/>
+      <child link="${prefix}_link"/>
+      <origin xyz="${x_reflect*wheel_xoff} ${y_reflect*(base_width/2 + wheel_ygap)} ${-wheel_zoff}" rpy="0 0 0"/>
+      <axis xyz="1 0 0"/> <!-- Orientacion del giro de las ruedas-->
+    </joint>
+  </xacro:macro>
+
+  <xacro:wheel prefix="front_left_wheel" x_reflect="-1" y_reflect="1"/>
+  <xacro:wheel prefix="front_right_wheel" x_reflect="1" y_reflect="1"/>
+  <xacro:wheel prefix="back_right_wheel" x_reflect="1" y_reflect="-1"/>
+  <xacro:wheel prefix="back_left_wheel" x_reflect="-1" y_reflect="-1"/>
+
+  <!-- LIDAR -->
+  <link name="lidar_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.02"/> <!-- Cilindro como placeholder -->
+      </geometry>
+      <material name="Black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="lidar_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="lidar_link"/>
+    <origin xyz="0.0 0.0 ${lidar_height}" rpy="0 0 0"/>
+  </joint>
+
+</robot>

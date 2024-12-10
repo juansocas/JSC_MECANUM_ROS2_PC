@@ -1,0 +1,1 @@
+/home/jsc/ros2_ws/build/a_control/ament_cmake_core/a_controlConfig-version.cmake

@@ -1,0 +1,17 @@
+# config/diff_drive_controller.yaml
+diff_drive_controller:
+  type: "diff_drive_controller/DiffDriveController"
+  left_wheel_names: ["drivewhl_fl_joint", "drivewhl_bl_joint"]  # Los nombres de los joints de las ruedas izquierdas
+  right_wheel_names: ["drivewhl_fr_joint", "drivewhl_br_joint"]  # Los nombres de los joints de las ruedas derechas
+  publish_rate: 50  # Frecuencia de publicación (Hz)
+  pose_publish_rate: 50  # Frecuencia para publicar la posición del robot
+  cmd_vel_timeout: 0.5  # Tiempo para considerar un comando /cmd_vel como válido (s)
+  velocity_rolling_window_size: 2
+  use_stamped_vel: false  # Si deseas usar mensajes 'geometry_msgs/TwistStamped'
+  wheel_separation: 0.17  # Distancia entre las ruedas izquierda y derecha (m)
+  wheel_radius: 0.04  # Radio de las ruedas (m)
+  linear.x.has_velocity_limits: true
+  linear.x.max_velocity: 0.5  # Velocidad máxima en m/s
+  angular.z.has_velocity_limits: true
+  angular.z.max_velocity: 1.0  # Velocidad angular máxima en rad/s
+

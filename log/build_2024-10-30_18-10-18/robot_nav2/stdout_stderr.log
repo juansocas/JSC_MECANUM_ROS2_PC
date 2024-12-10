@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/robot_nav2/robot_nav2.egg-info
+writing ../../build/robot_nav2/robot_nav2.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_nav2/robot_nav2.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_nav2/robot_nav2.egg-info/entry_points.txt
+writing requirements to ../../build/robot_nav2/robot_nav2.egg-info/requires.txt
+writing top-level names to ../../build/robot_nav2/robot_nav2.egg-info/top_level.txt
+writing manifest file '../../build/robot_nav2/robot_nav2.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_nav2/robot_nav2.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_nav2/robot_nav2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jsc/ros2_ws/build/robot_nav2/build
+creating /home/jsc/ros2_ws/build/robot_nav2/build/lib
+creating /home/jsc/ros2_ws/build/robot_nav2/build/lib/robot_nav2
+copying robot_nav2/__init__.py -> /home/jsc/ros2_ws/build/robot_nav2/build/lib/robot_nav2
+running install
+running install_lib
+creating /home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages/robot_nav2
+copying /home/jsc/ros2_ws/build/robot_nav2/build/lib/robot_nav2/__init__.py -> /home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages/robot_nav2
+byte-compiling /home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages/robot_nav2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jsc/ros2_ws/install/robot_nav2/share/ament_index
+creating /home/jsc/ros2_ws/install/robot_nav2/share/ament_index/resource_index
+creating /home/jsc/ros2_ws/install/robot_nav2/share/ament_index/resource_index/packages
+copying resource/robot_nav2 -> /home/jsc/ros2_ws/install/robot_nav2/share/ament_index/resource_index/packages
+copying package.xml -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2
+creating /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+copying launch/lidar_launch.py -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+copying launch/amcl_launch.py -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+copying launch/nav2_launch.py -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/launch
+creating /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/config
+copying config/amcl_config.yaml -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/config
+copying config/nav2_params.yaml -> /home/jsc/ros2_ws/install/robot_nav2/share/robot_nav2/config
+running install_egg_info
+Copying ../../build/robot_nav2/robot_nav2.egg-info to /home/jsc/ros2_ws/install/robot_nav2/lib/python3.10/site-packages/robot_nav2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jsc/ros2_ws/build/robot_nav2/install.log'

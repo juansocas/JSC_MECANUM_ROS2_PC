@@ -1,0 +1,49 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jsc/ros2_ws/build/jsc_mecanum_hardware
+[35m[1mConsolidate compiler generated dependencies of target jsc_mecanum_hardware[0m
+[ 33%] [32m[1mLinking CXX shared library libjsc_mecanum_hardware.so[0m
+[100%] Built target jsc_mecanum_hardware
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware//jsc_mecanum_hardware.xml
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/lib/libjsc_mecanum_hardware.so
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_hardware.hpp
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_hardware_compiler.h
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_serial_port.hpp
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/library_path.sh
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/library_path.dsv
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_hardware
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_hardware
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/ament_prefix_path.sh
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/path.sh
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/path.dsv
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.bash
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.sh
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.zsh
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.dsv
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.dsv
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/packages/jsc_mecanum_hardware
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/jsc_mecanum_hardware
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/jsc_mecanum_hardwareConfig.cmake
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/jsc_mecanum_hardwareConfig-version.cmake
+-- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.xml

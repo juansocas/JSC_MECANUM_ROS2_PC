@@ -1,0 +1,1 @@
+/home/jsc/ros2_ws/build/robot_nav2/launch/nav2_launch.py

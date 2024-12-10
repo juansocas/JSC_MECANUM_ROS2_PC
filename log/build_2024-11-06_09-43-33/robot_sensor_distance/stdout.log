@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing robot_sensor_distance.egg-info/PKG-INFO
+writing dependency_links to robot_sensor_distance.egg-info/dependency_links.txt
+writing entry points to robot_sensor_distance.egg-info/entry_points.txt
+writing requirements to robot_sensor_distance.egg-info/requires.txt
+writing top-level names to robot_sensor_distance.egg-info/top_level.txt
+reading manifest file 'robot_sensor_distance.egg-info/SOURCES.txt'
+writing manifest file 'robot_sensor_distance.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jsc/ros2_ws/install/robot_sensor_distance/lib/python3.10/site-packages/robot-sensor-distance.egg-link (link to .)
+Installing distancia script to /home/jsc/ros2_ws/install/robot_sensor_distance/lib/robot_sensor_distance
+
+Installed /home/jsc/ros2_ws/build/robot_sensor_distance
+running symlink_data

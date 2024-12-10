@@ -1,0 +1,4 @@
+[console_scripts]
+find_ports = aros2duino.find_ports:main
+text_node = robot_controller.my_first_node:main
+

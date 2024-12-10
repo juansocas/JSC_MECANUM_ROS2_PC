@@ -1,0 +1,95 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jsc/ros2_ws/build/jsc_mobile_robot
+-- Install configuration: ""
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/config
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/config/my_controllers.yaml
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/config/mapper_params_online_async.yaml
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/config/diff_drive_controller.yaml
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/config/ekf.yaml
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/launch
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/launch/jsc_mobile_bot_v4_launch_copy.py
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/launch/jsc_mobile_bot_v2_launch.py
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/launch/jsc_mobile_bot_v3_launch.py
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/launch/jsc_mobile_bot_v5_launch.py
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/launch/jsc_mobile_bot_v4_launch.py
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/launch/jsc_mobile_bot_v1_launch.py
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/maps
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/meshes
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/meshes/wrist.stl
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/meshes/elbow.stl
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/meshes/arm_base.stl
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/meshes/robot_base.stl
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/meshes/bicep.stl
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/meshes/wheel.stl
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_v2.urdf
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_v2_copy.urdf
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/model_v2.sdf
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/model.sdf
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/config
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/config/controllers.yaml
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/modelo_V.sdf
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/model.config
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/meshes
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/meshes/wrist.stl
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/meshes/elbow.stl
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/meshes/arm_base.stl
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/meshes/robot_base.stl
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/meshes/bicep.stl
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_description/meshes/wheel.stl
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_v4.urdf
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_v1.urdf
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/jsc_mobile_bot_v3.urdf
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/Pasillo_Telematica
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/Pasillo_Telematica/model.sdf
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/models/Pasillo_Telematica/model.config
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/params
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/rviz
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/rviz/urdf_config.rviz
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/rviz/urdf_config_v2.rviz
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/src
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds/jsc_mobile_bot_world
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds/jsc_mobile_bot_world/pasillo_telematica_v2.world
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds/jsc_mobile_bot_world/pasillo_telematica_v3.world
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds/jsc_mobile_bot_world/telematica_v5.world
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds/jsc_mobile_bot_world/pasillo_telematica.world
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds/jsc_mobile_bot_world/telematica_v4.world
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/worlds/jsc_mobile_bot_world/telematica_v6.world
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/ament_index/resource_index/package_run_dependencies/jsc_mobile_robot
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/ament_index/resource_index/parent_prefix_path/jsc_mobile_robot
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/environment/ament_prefix_path.sh
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/environment/path.sh
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/environment/path.dsv
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/local_setup.bash
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/local_setup.sh
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/local_setup.zsh
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/local_setup.dsv
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/package.dsv
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/ament_index/resource_index/packages/jsc_mobile_robot
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/cmake/jsc_mobile_robotConfig.cmake
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/cmake/jsc_mobile_robotConfig-version.cmake
+-- Installing: /home/jsc/ros2_ws/install/jsc_mobile_robot/share/jsc_mobile_robot/package.xml

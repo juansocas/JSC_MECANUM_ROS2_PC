@@ -1,0 +1,37 @@
+[2.726s] Invoking command in '/home/jsc/ros2_ws/src/motor_gui_pkg': PYTHONPATH=/home/jsc/ros2_ws/build/motor_gui_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_gui_pkg build --build-base /home/jsc/ros2_ws/build/motor_gui_pkg/build install --record /home/jsc/ros2_ws/build/motor_gui_pkg/install.log --single-version-externally-managed install_data
+[3.219s] running egg_info
+[3.221s] creating ../../build/motor_gui_pkg/motor_gui_pkg.egg-info
+[3.221s] writing ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/PKG-INFO
+[3.224s] writing dependency_links to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/dependency_links.txt
+[3.224s] writing entry points to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/entry_points.txt
+[3.225s] writing requirements to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/requires.txt
+[3.226s] writing top-level names to ../../build/motor_gui_pkg/motor_gui_pkg.egg-info/top_level.txt
+[3.231s] writing manifest file '../../build/motor_gui_pkg/motor_gui_pkg.egg-info/SOURCES.txt'
+[3.231s] reading manifest file '../../build/motor_gui_pkg/motor_gui_pkg.egg-info/SOURCES.txt'
+[3.233s] writing manifest file '../../build/motor_gui_pkg/motor_gui_pkg.egg-info/SOURCES.txt'
+[3.234s] running build
+[3.234s] running build_py
+[3.235s] creating /home/jsc/ros2_ws/build/motor_gui_pkg/build
+[3.235s] creating /home/jsc/ros2_ws/build/motor_gui_pkg/build/lib
+[3.235s] creating /home/jsc/ros2_ws/build/motor_gui_pkg/build/lib/motor_gui_pkg
+[3.235s] copying motor_gui_pkg/motor_gui.py -> /home/jsc/ros2_ws/build/motor_gui_pkg/build/lib/motor_gui_pkg
+[3.236s] copying motor_gui_pkg/__init__.py -> /home/jsc/ros2_ws/build/motor_gui_pkg/build/lib/motor_gui_pkg
+[3.236s] running install
+[3.240s] running install_lib
+[3.240s] creating /home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg
+[3.240s] copying /home/jsc/ros2_ws/build/motor_gui_pkg/build/lib/motor_gui_pkg/motor_gui.py -> /home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg
+[3.240s] copying /home/jsc/ros2_ws/build/motor_gui_pkg/build/lib/motor_gui_pkg/__init__.py -> /home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg
+[3.240s] byte-compiling /home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg/motor_gui.py to motor_gui.cpython-310.pyc
+[3.241s] byte-compiling /home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg/__init__.py to __init__.cpython-310.pyc
+[3.241s] running install_data
+[3.243s] creating /home/jsc/ros2_ws/install/motor_gui_pkg/share/ament_index
+[3.243s] creating /home/jsc/ros2_ws/install/motor_gui_pkg/share/ament_index/resource_index
+[3.243s] creating /home/jsc/ros2_ws/install/motor_gui_pkg/share/ament_index/resource_index/packages
+[3.243s] copying resource/motor_gui_pkg -> /home/jsc/ros2_ws/install/motor_gui_pkg/share/ament_index/resource_index/packages
+[3.244s] copying package.xml -> /home/jsc/ros2_ws/install/motor_gui_pkg/share/motor_gui_pkg
+[3.244s] running install_egg_info
+[3.248s] Copying ../../build/motor_gui_pkg/motor_gui_pkg.egg-info to /home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages/motor_gui_pkg-0.0.0-py3.10.egg-info
+[3.256s] running install_scripts
+[3.286s] Installing motor_gui script to /home/jsc/ros2_ws/install/motor_gui_pkg/lib/motor_gui_pkg
+[3.286s] writing list of installed files to '/home/jsc/ros2_ws/build/motor_gui_pkg/install.log'
+[3.361s] Invoked command in '/home/jsc/ros2_ws/src/motor_gui_pkg' returned '0': PYTHONPATH=/home/jsc/ros2_ws/build/motor_gui_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jsc/ros2_ws/install/motor_gui_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_gui_pkg build --build-base /home/jsc/ros2_ws/build/motor_gui_pkg/build install --record /home/jsc/ros2_ws/build/motor_gui_pkg/install.log --single-version-externally-managed install_data

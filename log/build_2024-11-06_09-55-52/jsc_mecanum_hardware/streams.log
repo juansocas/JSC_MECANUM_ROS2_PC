@@ -1,0 +1,54 @@
+[0.059s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mecanum_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/jsc_mecanum_hardware -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/jsc_mecanum_hardware
+[0.666s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.672s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.672s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.672s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.672s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.672s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.672s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.672s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.884s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.884s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.925s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.942s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.971s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.989s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.005s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.227s] -- Configuring done
+[1.292s] -- Generating done
+[1.295s] -- Build files have been written to: /home/jsc/ros2_ws/build/jsc_mecanum_hardware
+[1.903s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mecanum_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake /home/jsc/ros2_ws/src/jsc_mecanum_hardware -DCMAKE_INSTALL_PREFIX=/home/jsc/ros2_ws/install/jsc_mecanum_hardware
+[1.906s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mecanum_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/jsc_mecanum_hardware -- -j12 -l12
+[2.599s] [35m[1mConsolidate compiler generated dependencies of target jsc_mecanum_hardware[0m
+[2.599s] [100%] Built target jsc_mecanum_hardware
+[2.617s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mecanum_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --build /home/jsc/ros2_ws/build/jsc_mecanum_hardware -- -j12 -l12
+[2.727s] Invoking command in '/home/jsc/ros2_ws/build/jsc_mecanum_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/jsc_mecanum_hardware
+[2.766s] -- Install configuration: ""
+[2.767s] -- Execute custom install script
+[2.767s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware//jsc_mecanum_hardware.xml
+[2.767s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/lib/libjsc_mecanum_hardware.so
+[2.768s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_hardware.hpp
+[2.774s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_hardware_compiler.h
+[2.774s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/include/include/jsc_mecanum_hardware/jsc_mecanum_serial_port.hpp
+[2.774s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/library_path.sh
+[2.774s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/library_path.dsv
+[2.774s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/package_run_dependencies/jsc_mecanum_hardware
+[2.774s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/parent_prefix_path/jsc_mecanum_hardware
+[2.774s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/ament_prefix_path.sh
+[2.775s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/ament_prefix_path.dsv
+[2.775s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/path.sh
+[2.775s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/environment/path.dsv
+[2.775s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.bash
+[2.775s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.sh
+[2.775s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.zsh
+[2.775s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/local_setup.dsv
+[2.775s] -- Symlinking: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.dsv
+[2.786s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/packages/jsc_mecanum_hardware
+[2.788s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/jsc_mecanum_hardware
+[2.789s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.789s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[2.789s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.789s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/jsc_mecanum_hardwareConfig.cmake
+[2.790s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/cmake/jsc_mecanum_hardwareConfig-version.cmake
+[2.790s] -- Up-to-date symlink: /home/jsc/ros2_ws/install/jsc_mecanum_hardware/share/jsc_mecanum_hardware/package.xml
+[2.802s] Invoked command in '/home/jsc/ros2_ws/build/jsc_mecanum_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsc/ros2_ws/install/robot_sensor_distance:/home/jsc/ros2_ws/install/robot_nav2:/home/jsc/ros2_ws/install/robot_distancia:/home/jsc/ros2_ws/install/robot_controller:/home/jsc/ros2_ws/install/motor_gui_pkg:/home/jsc/Aros2duino/install/aros2duino:/opt/ros/humble /usr/bin/cmake --install /home/jsc/ros2_ws/build/jsc_mecanum_hardware
